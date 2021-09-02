@@ -1,0 +1,11 @@
+%%wirtefile file.yaml
+file_type: cvs
+dataset_name: test_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+sikp_leading_rows: 1
+columns:
+    -city
+    -price
+    -distance
